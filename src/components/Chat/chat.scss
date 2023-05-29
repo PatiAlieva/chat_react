@@ -1,0 +1,95 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    &_header {
+        min-height: 10vh;
+        font-size: 25px;
+
+
+        h1 {
+            color: rgb(253, 66, 66);
+            text-transform: uppercase;
+            line-height: 1;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+        h1:hover {
+            color: rgb(245, 0, 0); /* Меняем цвет текста */
+            -webkit-text-shadow: 2px 2px 2px #000;
+            -moz-text-shadow: 2px 2px 2px #000;
+                text-shadow: 2px 2px 2px #000;
+        }
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-height: 80vh;
+    width: 55vw;
+    background-color: white;
+    border-radius: 15%;
+
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    &:hover {
+        box-shadow: 2px 2px 2px #000;
+        -webkit-box-shadow: 2px 2px 2px #000;
+        -moz-box-shadow: 2px 2px 2px #000;
+    }
+
+    &_chat {
+        display: flex;
+        gap: 5px;
+        margin: 15px auto;
+    }
+}
+input {
+    width: 60%;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 1px solid #cff8f8;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+
+    &:focus {
+        border: 1.5px solid #00ffff;
+    }
+}
+.sendBtn {
+    border-radius: 10px;
+    outline: none;
+    width: 40%;
+    padding: 10px 15px;
+    border: 1px solid #cff8f8;
+    transition: all 0.5s ease;
+    background-color: #65ffff;
+
+    &:hover {
+        background-color: #01d6d6;
+        font-weight: bold;
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 7% 5%;
+    width: 100%;
+    word-break: break-all;
+}
+
+.newMessage {
+    background-color: #daffff;
+}
