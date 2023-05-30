@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chat_react.git/static/css/main.61fcc5d3.css",
+    "main.js": "/chat_react.git/static/js/main.03c42fc8.js",
+    "static/media/chat.jpg": "/chat_react.git/static/media/chat.0dde9f412c1cda2eb847.jpg",
+    "index.html": "/chat_react.git/index.html",
+    "main.61fcc5d3.css.map": "/chat_react.git/static/css/main.61fcc5d3.css.map",
+    "main.03c42fc8.js.map": "/chat_react.git/static/js/main.03c42fc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61fcc5d3.css",
+    "static/js/main.03c42fc8.js"
+  ]
+}
